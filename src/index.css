@@ -1,0 +1,109 @@
+/* 
+**************************************************
+    set these styles independently for each design
+**************************************************
+*/
+.content-area {
+  /* define the content area of the web page */
+  width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+}
+.font-theme {
+  /* define the default font style of the web page */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;  /* use to set the rem size */
+}
+.color-theme {
+  /* define the theme color of the web page */
+  background-color: rgb(5,178,252);
+}
+.color-background1 {
+  /* define the background color 1 of the web page */
+  background-color: rgb(255,255,255);
+}
+.color-background2 {
+  /* define the background color 2 of the web page */
+  background-color: rgb(240,246,250);
+}
+
+/* 
+**************************************************
+  common style for all designs
+**************************************************
+*/
+.stucture-div {
+  /* stucture-div is for the React V-DOM */
+  width: 100%;
+  /* height: 100%; */
+  border: 1px transparent solid;
+}
+.float-left {
+  /* float the elements to design layout */
+  float: left;
+}
+.float-right {
+  /* float the elements to design layout */
+  float: right;
+}
+.float-clear::after {
+  /* clear the effect from floating of the sub-elements */
+  content: "";
+  display: block;
+  clear: both;
+}
+.hidden {
+  /* set the element to be invisible */
+  display: none;
+}
+
+/* 
+**************************************************
+  use to clear the default element's style
+  below gets from reset.css
+  https://www.npmjs.com/package/reset.css
+**************************************************
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}

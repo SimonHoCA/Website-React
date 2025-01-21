@@ -1,0 +1,19 @@
+.jump-to-bottom {
+    height: 40px;
+    width: 45px;
+    border-radius: 8px;
+    background-color: rgb(5,178,252,0.4);
+    background-image: url("../../../../public/jump-to-top.png");
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    position: absolute;
+    /* left: 1690px; */
+    /* top: 840px; */
+    transition-duration: 0.3s;
+}
+.jump-to-bottom:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}

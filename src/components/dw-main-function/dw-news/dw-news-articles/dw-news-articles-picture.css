@@ -1,0 +1,8 @@
+.dw-articles-picture {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.dw-articles-picture img {
+    width: 100%;
+}

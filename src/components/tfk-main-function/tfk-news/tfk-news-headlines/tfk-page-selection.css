@@ -1,0 +1,38 @@
+.tfk-page-selection {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.tfk-page-selection>div {
+    width: 200px;
+    margin: 0 auto;
+}
+.tfk-page-selection-item {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: rgba(255,107,0,0.7);
+    color: rgb(255,255,255);
+    /* color: rgb(0,0,0,0.3); */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+.current {
+    background-color: rgba(255,107,0);
+    /* color: rgb(255,255,255); */
+    /* color: rgb(0,0,0,0.3); */
+    /* color: black; */
+}
+.noLink {
+    color: rgb(0,0,0,0.3);
+}
+.tfk-page-selection-item :hover {
+    cursor: pointer;
+}
+.noLink :hover {
+    cursor: default;
+}

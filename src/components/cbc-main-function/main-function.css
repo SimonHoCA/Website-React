@@ -1,0 +1,9 @@
+.left-nav-area-cbc {
+    width: 10%;
+    height: calc(100% - 65px - 35px);
+    /* background-color: azure; */
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 2px;
+    float: left;
+}

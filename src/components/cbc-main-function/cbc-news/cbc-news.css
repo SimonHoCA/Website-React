@@ -1,0 +1,33 @@
+.head-cbc {
+    height: 40px;
+}
+.head-cbc span {
+    display: block;
+    height: 43px;
+    min-width: 250px;
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    /* color: rgb(92,113,138); */
+    color: rgb(255,255,255);
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: -15px;
+    border-radius: 8px;
+    /* background-color: rgb(205,225,238); */
+    background-color: rgb(255,255,255);
+    cursor:default;
+}
+.head-cbc .enable {
+    background-color: rgb(230,5,5,0.6);
+    color: rgb(255,255,255);
+}
+.head-cbc .enable:hover {
+    cursor: pointer;
+}
+.head-cbc .selected {
+    font-weight: bold;
+    color: rgb(255,255,255);
+    background-color: rgb(230,5,5);
+}

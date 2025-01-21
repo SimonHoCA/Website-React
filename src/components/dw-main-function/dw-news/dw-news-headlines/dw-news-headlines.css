@@ -1,0 +1,16 @@
+.content-dw-headlines {
+    height: calc(100vh - 113px);
+    /* background-color:antiquewhite; */
+    overflow-y: auto;
+    padding-left: 20px;
+    scrollbar-width: none;
+}
+.rolling-pictures {
+    width: 30%;
+    height: 95%;
+    /* background-color: bisque; */
+    margin-right: 5%;
+    margin-top: 2%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}

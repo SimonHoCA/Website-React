@@ -1,0 +1,16 @@
+.dw-headline-classify {
+    width: 63%;
+    margin-top: 20px;
+}
+.dw-headline-classify span {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(11,87,208);
+    margin-left: 40px;
+}
+.dw-headline-classify hr {
+    background-color: rgb(205,225,238);;
+    height: 2px;
+    margin-left: 20px;
+    border: none;
+}

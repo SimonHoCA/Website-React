@@ -1,0 +1,38 @@
+.content-dw-articles {
+    height: calc(100vh - 133px);
+    padding: 20px;
+    padding-bottom: 0px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* overflow-x: hidden; */
+}
+.org-link-of-article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* overflow-x: hidden; */
+    /* scrollbar-width: none; */
+}
+.org-link-of-article span {
+    margin-left: 90px;
+    font-size: 18px;
+    font-style: italic;
+}
+.org-link-of-article button {
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 90px;
+    border-width: 1px;
+    border-color: rgb(5,178,252,0.2);
+    border-radius: 5px;
+    background-color: rgb(5,178,252,0.2);
+    font-size: 18px;
+    color: rgb(0,0,0,0.5);
+    transition-duration: 0.5s;
+}
+.org-link-of-article button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    font-weight: bold;
+    /* color: azure; */
+}

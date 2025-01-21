@@ -1,0 +1,59 @@
+.left-sub-item-cbc {
+    height: 0px;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.left-sub-item-cbc .item {
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: rgb(255,255,255);
+    background-color: rgba(230,5,5,0.4);
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    float: right;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.left-sub-item-cbc .itemSelected {
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: rgb(255,255,255);
+    background-color: rgba(230,5,5,1);
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    float: right;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.left-sub-item-cbc .item:hover {
+    box-shadow: 0 0 5px black;
+    background-color: rgb(230,5,5,0.8);
+    transform: translate(-1px,0px);
+    cursor: pointer;
+}
+.left-sub-item-cbc .item span:hover {
+    cursor: pointer;
+}
+.left-sub-item-cbc .itemSelected:hover {
+    box-shadow: 0 0 5px black;
+    background-color: rgb(230,5,5,0.8);
+    transform: translate(-1px,0px);
+    cursor: pointer;
+}
+.left-sub-item-cbc .itemSelected span:hover {
+    cursor: pointer;
+}

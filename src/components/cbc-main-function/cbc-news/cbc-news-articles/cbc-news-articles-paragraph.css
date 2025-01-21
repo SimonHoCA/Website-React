@@ -1,0 +1,9 @@
+.cbc-articles-h6 {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.cbc-articles-h6 .h6 {
+    font-size: 20px;
+    color: rgb(0,8,33);
+}

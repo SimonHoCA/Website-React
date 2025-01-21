@@ -1,0 +1,18 @@
+.cbc-headline-classify {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.cbc-headline-classify span {
+    font-size: 30px;
+    font-weight: bold;
+    /* color: rgb(11,87,208); */
+    color: rgb(0,0,0);
+    margin-left: 10px;
+}
+/* .cbc-headline-classify hr {
+    background-color: rgb(0,0,0);;
+    height: 2px;
+    border: none;
+} */

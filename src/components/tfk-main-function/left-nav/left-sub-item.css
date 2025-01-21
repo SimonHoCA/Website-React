@@ -1,0 +1,60 @@
+.left-sub-item-tfk {
+    height: 0px;
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.left-sub-item-tfk .item {
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: rgb(255,255,255);
+    background-color: rgba(255,107,0,0.7);
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    float: right;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.left-sub-item-tfk .itemSelected {
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    color: rgb(255,255,255);
+    /* color: rgb(0,0,0,0.6); */
+    background-color: rgba(255,107,0);
+    margin-top: 2px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    float: right;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+.left-sub-item-tfk .item:hover {
+    box-shadow: 0 0 5px black;
+    background-color: rgb(255,107,0,0.7);
+    transform: translate(-1px,0px);
+    cursor: pointer;
+}
+.left-sub-item-tfk .item span:hover {
+    cursor: pointer;
+}
+.left-sub-item-tfk .itemSelected:hover {
+    box-shadow: 0 0 5px black;
+    background-color: rgb(255,107,0);
+    transform: translate(-1px,0px);
+    cursor: pointer;
+}
+.left-sub-item-tfk .itemSelected span:hover {
+    cursor: pointer;
+}

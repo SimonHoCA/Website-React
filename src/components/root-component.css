@@ -1,0 +1,13 @@
+.page-body {
+    /* define the main body of the web page */
+    /* background-color: rgb(250,250,250); */
+    /* height: calc(100vh - 17px); */
+    overflow-y: auto;
+    scrollbar-width: 20px;
+  }
+.content-area {
+    /* add some styles base on the 'index.css' */
+    background-color: rgb(255,255,255);
+    /* overflow-y: hidden; */
+    scrollbar-width: none;
+  }

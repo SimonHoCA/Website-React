@@ -1,0 +1,29 @@
+.rolling-picture-item {
+    /* height: 30%; */
+    /* background-color: aliceblue; */
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.rolling-picture-item img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.3;
+    transition-duration: 0.5s;
+}
+.rolling-picture-item img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.rolling-picture-selected {
+    /* height: 30%; */
+    /* background-color: aliceblue; */
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.rolling-picture-selected img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}

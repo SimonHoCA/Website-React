@@ -1,0 +1,18 @@
+.tfk-headline-classify {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.tfk-headline-classify span {
+    font-size: 30px;
+    font-weight: bold;
+    /* color: rgb(0,0,0); */
+    color: rgb(0,0,0,0.6);
+    margin-left: 10px;
+}
+/* .tfk-headline-classify hr {
+    background-color: rgb(0,0,0);;
+    height: 2px;
+    border: none;
+} */

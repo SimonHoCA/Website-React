@@ -1,0 +1,27 @@
+.dw-articles-title {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.dw-articles-paragraph {
+    width: 88%;
+    text-align: left;
+    /* margin-top: 20px; */
+    margin: 20px auto;
+}
+.dw-articles-title .h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0,33,134);
+    margin-left: 10px;
+}
+.dw-articles-paragraph .h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0,8,33);
+}
+.dw-articles-paragraph .p {
+    font-size: 23px;
+    line-height: 30px;
+    color: rgb(0,8,33);
+}

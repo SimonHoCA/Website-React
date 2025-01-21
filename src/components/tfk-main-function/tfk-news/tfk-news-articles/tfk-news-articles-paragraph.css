@@ -1,0 +1,23 @@
+.tfk-articles-title {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.tfk-articles-title .h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0,33,134);
+    margin-left: 10px;
+}
+.tfk-articles-h2 {
+    /* text-align: center; */
+    padding-left: 70px;
+    /* padding-right: 200px; */
+}
+.tfk-articles-h2 .H2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(0,8,33);
+}

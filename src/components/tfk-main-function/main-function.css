@@ -1,0 +1,21 @@
+.left-nav-area-tfk {
+    /* width: 10%; */
+    width: 160px;
+    height: calc(100% - 65px - 35px);
+    /* background-color: azure; */
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 2px;
+    float: left;
+    position: absolute;
+    /* top: 36px; */
+    transition-duration: 0.3s;
+}
+.main-function-content-tfk {
+    /* width: calc(90% - 10px - 2px - 10px); */
+    width: calc(1440px - 10px - 2px - 10px);
+    height: calc(100% - 45px - 0px);
+    float: left;
+    margin-left: 172px;
+    /* overflow-x: hidden; */
+}

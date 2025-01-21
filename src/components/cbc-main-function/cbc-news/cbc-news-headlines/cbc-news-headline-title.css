@@ -1,0 +1,74 @@
+.cbc-headline-title {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 23px;
+    overflow: hidden;
+    transition-duration: 1s;
+    text-align: center;
+}
+.cbc-headline-title:hover {
+    /* border: 1px red solid; */
+    /* border-radius: 5px; */
+    background-color: rgba(135, 207, 235, 0.137);
+}
+.cbc-headline-title span {
+    /* text-align: center; */
+    color: rgb(0,0,0);
+    font-size: 20px;
+}
+.cbc-headline-title span:hover {
+    cursor: pointer;
+    color: rgb(11,87,208);
+}
+.cbc-headline-title .date {
+    color: rgb(150,150,150);
+    font-size: 12px;
+}
+.cbc-headline-title .date:hover {
+    cursor: default;
+    color: rgb(150,150,150);
+}
+.cbc-headline-title .cbc-headline-title-pic {
+    /* height: 250px; */
+    /* width: 400px; */
+    max-height: 250px;
+    max-width: 400px;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+}
+.cbc-headline-title .cbc-headline-title-pic:hover {
+    cursor: pointer;
+}
+.cbc-headline-title .cbc-headline-title-pic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.cbc-headline-title .cbc-headline-title-text {
+    height: 60px;
+}
+.cbc-headline-title .cbc-headline-title-text-nopic {
+    text-align: left;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.cbc-headline-selected {
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 30px;
+    /* margin-bottom: 5px; */
+    overflow: hidden;
+    background-color: rgba(135, 207, 235, 0.137);
+    /* background-color: skyblue; */
+    transition-duration: 0.3s;
+}
+.cbc-headline-selected span {
+    color: rgb(11,87,208);
+    font-size: 20px;
+}
+.cbc-headline-selected .date {
+    /* color: rgb(11,87,208); */
+    color: rgb(150,150,150);
+    font-size: 12px;
+}

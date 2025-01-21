@@ -1,0 +1,7 @@
+.content-cbc-headlines {
+    height: calc(100vh - 113px);
+    /* background-color: rgb(250,250,250); */
+    overflow-y: auto;
+    padding-left: 20px;
+    scrollbar-width: none;
+}
